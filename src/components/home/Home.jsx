@@ -11,6 +11,8 @@ const Home = () => {
   const [totalCredit, setTotalCredit] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0);
 
+  const [remainingCreditHour, setRemainingHour] = useState(0);
+
   const handleSelectCourse = (course) => {
     let credit = course.credit;
 
@@ -26,11 +28,19 @@ const Home = () => {
       });
 
       selectCourse.forEach((course) => {
-        price += course.price + price;
+        price += parseFloat(course.price + price);
       });
-      setTotalPrice(price);
-      setSelectCourse([...selectCourse, course]);
+
+      if (credit > 20) {
+        return alert("cant exceed 20 up");
+      }
       setTotalCredit(credit);
+
+      setTotalPrice(parseFloat(price.toFixed(2)));
+
+      setSelectCourse([...selectCourse, course]);
+
+      setRemainingHour(20 - credit);
     }
   };
 
@@ -55,6 +65,7 @@ const Home = () => {
         totalCredit={totalCredit}
         selectCourse={selectCourse}
         totalPrice={totalPrice}
+        remainingCreditHour={remainingCreditHour}
       ></Cart>
     </div>
   );
