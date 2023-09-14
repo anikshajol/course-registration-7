@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/gF2h5wx/Rectangle-2-2.png",
+    "course_name": "Introduction to C Programming",
+    "course_details": "Learn the basics of the C programming language.",
+    "price": 199.99,
+    "credit": 3
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/YpDs6Wh/Rectangle-2-3.png",
+    "course_name": "Introduction to Algorithms",
+    "course_details": "Explore fundamental algorithms and data structures.",
+    "price": 149.99,
+    "credit": 2
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/Csk1fmv/Rectangle-2-4.png",
+    "course_name": "Introduction to C++ for DSA",
+    "course_details": "Get started with C++ programming for data structures and algorithms.",
+    "price": 249.99,
+    "credit": 4
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/LNCbDQQ/Rectangle-3.png",
+    "course_name": "Basic Data Structures",
+    "course_details": "Learn essential data structures such as arrays, linked lists, and stacks.",
+    "price": 179.99,
+    "credit": 2
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/KhG392y/Rectangle-2.png",
+    "course_name": "Introduction to OOP Python",
+    "course_details": "Master object-oriented programming with Python.",
+    "price": 299.99,
+    "credit": 5
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/ykh7kBW/Rectangle-2-5.png",
+    "course_name": "Software Engineering",
+    "course_details": "Learn software development methodologies and best practices.",
+    "price": 199.99,
+    "credit": 3
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/JryZznq/Rectangle-3-1.png",
+    "course_name": "AWS, Cloud Computing",
+    "course_details": "Explore cloud computing and Amazon Web Services (AWS).",
+    "price": 229.99,
+    "credit": 3
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/tLHpcKM/Rectangle-2-1.png",
+    "course_name": "Database (MySQL)",
+    "course_details": "Learn database design principles and MySQL programming.",
+    "price": 149.99,
+    "credit": 2
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/nzv77Hm/Rectangle-2-6.png",
+    "course_name": "Problem-Solving Part",
+    "course_details": "Enhance your problem-solving skills and algorithmic thinking.",
+    "price": 199.99,
+    "credit": 3
+  }
+]
