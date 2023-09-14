@@ -14,7 +14,7 @@ const Cart = ({
       </h2>
 
       <div className="py-4 border-b-2 pb-4">
-        <h2>Course Name</h2>
+        <h2 className="text-xl font-bold pb-5">Course Name</h2>
         {selectCourse.map((course) => (
           <li className="list-[number]" key={course.id}>
             {course.course_name}
