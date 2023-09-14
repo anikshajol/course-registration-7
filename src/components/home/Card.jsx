@@ -2,9 +2,7 @@ import PropTypes from "prop-types";
 
 import { BsBook } from "react-icons/bs";
 
-const Card = ({ course }) => {
-  console.log(course);
-
+const Card = ({ course, handleSelectCourse }) => {
   const { image, course_name, course_details, price, credit } = course;
 
   return (
@@ -35,7 +33,10 @@ const Card = ({ course }) => {
         </div>
 
         <div className="card-actions p-4">
-          <button className="btn btn-primary w-full hover:outline-none">
+          <button
+            onClick={() => handleSelectCourse(course)}
+            className="btn btn-primary w-full hover:outline-none"
+          >
             Select
           </button>
         </div>
@@ -46,6 +47,7 @@ const Card = ({ course }) => {
 
 Card.propTypes = {
   course: PropTypes.object.isRequired,
+  handleSelectCourse: PropTypes.func,
 };
 
 export default Card;

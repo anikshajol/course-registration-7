@@ -5,7 +5,7 @@
     "course_name": "Introduction to C Programming",
     "course_details": "This course is designed to teach you the fundamentals of the C programming language. You will learn about variables, data types, control structures, and how to write efficient code. By the end of the course, you'll be able to write simple C programs.",
     "price": 199.99,
-    "credit": 3
+    "credit": 8
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "course_name": "Introduction to C++ for DSA",
     "course_details": "C++ is a powerful language for data structures and algorithms. This course introduces C++ and shows how to use it effectively for data structure and algorithm implementation. You'll work on practical coding exercises to reinforce your skills.",
     "price": 249.99,
-    "credit": 4
+    "credit": 10
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "course_name": "Basic Data Structures",
     "course_details": "This course focuses on core data structures such as arrays, linked lists, stacks, and queues. You'll not only learn how these data structures work but also how to apply them to solve real-world problems.",
     "price": 179.99,
-    "credit": 2
+    "credit": 5
   },
   {
     "id": 5,
@@ -53,7 +53,7 @@
     "course_name": "AWS, Cloud Computing",
     "course_details": "Explore the world of cloud computing with a focus on Amazon Web Services (AWS). Learn how to deploy, manage, and scale applications in the cloud. Gain expertise in various AWS services.",
     "price": 229.99,
-    "credit": 3
+    "credit": 5
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "course_name": "Database (MySQL)",
     "course_details": "Databases are the backbone of many applications. This course covers database design principles and MySQL, a popular relational database system. You'll learn to create, query, and manage databases.",
     "price": 149.99,
-    "credit": 2
+    "credit": 4
   },
   {
     "id": 9,
