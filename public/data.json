@@ -5,7 +5,7 @@
     "course_name": "Introduction to C Programming",
     "course_details": "This course is designed to teach you the fundamentals of the C programming language. You will learn about variables, data types, control structures, and how to write efficient code. By the end of the course, you'll be able to write simple C programs.",
     "price": 199.99,
-    "credit": 8
+    "credit": 1
   },
   {
     "id": 2,
@@ -45,7 +45,7 @@
     "course_name": "Software Engineering",
     "course_details": "Software engineering is about designing, building, and maintaining software systems. This course covers software development methodologies, requirements analysis, design patterns, and project management.",
     "price": 199.99,
-    "credit": 3
+    "credit": 5
   },
   {
     "id": 7,
@@ -61,7 +61,7 @@
     "course_name": "Database (MySQL)",
     "course_details": "Databases are the backbone of many applications. This course covers database design principles and MySQL, a popular relational database system. You'll learn to create, query, and manage databases.",
     "price": 149.99,
-    "credit": 4
+    "credit": 2
   },
   {
     "id": 9,
