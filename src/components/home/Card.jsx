@@ -9,7 +9,7 @@ const Card = ({ course }) => {
 
   return (
     <div>
-      <div className="card  h-[400px]  bg-base-100 shadow-xl">
+      <div className="card h-[420px]  bg-white shadow-xl">
         <figure className="px-2 pt-4">
           <img src={image} alt={course_name} className="rounded-xl" />
         </figure>
@@ -34,7 +34,7 @@ const Card = ({ course }) => {
           </p>
         </div>
 
-        <div className="card-actions p-1">
+        <div className="card-actions p-4">
           <button className="btn btn-primary w-full hover:outline-none">
             Select
           </button>
