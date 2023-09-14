@@ -5,9 +5,7 @@ import Card from "./Card";
 
 const Home = () => {
   const [courses, setCourses] = useState([]);
-
   const [selectCourse, setSelectCourse] = useState([]);
-
   const [totalCredit, setTotalCredit] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0);
 
