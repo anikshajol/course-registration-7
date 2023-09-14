@@ -3,7 +3,7 @@
     "id": 1,
     "image": "https://i.ibb.co/gF2h5wx/Rectangle-2-2.png",
     "course_name": "Introduction to C Programming",
-    "course_details": "Learn the basics of the C programming language.",
+    "course_details": "This course is designed to teach you the fundamentals of the C programming language. You will learn about variables, data types, control structures, and how to write efficient code. By the end of the course, you'll be able to write simple C programs.",
     "price": 199.99,
     "credit": 3
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "image": "https://i.ibb.co/YpDs6Wh/Rectangle-2-3.png",
     "course_name": "Introduction to Algorithms",
-    "course_details": "Explore fundamental algorithms and data structures.",
+    "course_details": "In this course, you will dive deep into algorithms and data structures. We will cover sorting, searching, and various data structures like arrays, linked lists, and trees. By the end of the course, you'll have a solid understanding of algorithmic problem-solving.",
     "price": 149.99,
     "credit": 2
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "image": "https://i.ibb.co/Csk1fmv/Rectangle-2-4.png",
     "course_name": "Introduction to C++ for DSA",
-    "course_details": "Get started with C++ programming for data structures and algorithms.",
+    "course_details": "C++ is a powerful language for data structures and algorithms. This course introduces C++ and shows how to use it effectively for data structure and algorithm implementation. You'll work on practical coding exercises to reinforce your skills.",
     "price": 249.99,
     "credit": 4
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "image": "https://i.ibb.co/LNCbDQQ/Rectangle-3.png",
     "course_name": "Basic Data Structures",
-    "course_details": "Learn essential data structures such as arrays, linked lists, and stacks.",
+    "course_details": "This course focuses on core data structures such as arrays, linked lists, stacks, and queues. You'll not only learn how these data structures work but also how to apply them to solve real-world problems.",
     "price": 179.99,
     "credit": 2
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "image": "https://i.ibb.co/KhG392y/Rectangle-2.png",
     "course_name": "Introduction to OOP Python",
-    "course_details": "Master object-oriented programming with Python.",
+    "course_details": "Object-oriented programming is a fundamental concept in software development. This course will teach you Python's object-oriented features and how to build reusable and maintainable code using OOP principles.",
     "price": 299.99,
     "credit": 5
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "image": "https://i.ibb.co/ykh7kBW/Rectangle-2-5.png",
     "course_name": "Software Engineering",
-    "course_details": "Learn software development methodologies and best practices.",
+    "course_details": "Software engineering is about designing, building, and maintaining software systems. This course covers software development methodologies, requirements analysis, design patterns, and project management.",
     "price": 199.99,
     "credit": 3
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "image": "https://i.ibb.co/JryZznq/Rectangle-3-1.png",
     "course_name": "AWS, Cloud Computing",
-    "course_details": "Explore cloud computing and Amazon Web Services (AWS).",
+    "course_details": "Explore the world of cloud computing with a focus on Amazon Web Services (AWS). Learn how to deploy, manage, and scale applications in the cloud. Gain expertise in various AWS services.",
     "price": 229.99,
     "credit": 3
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "image": "https://i.ibb.co/tLHpcKM/Rectangle-2-1.png",
     "course_name": "Database (MySQL)",
-    "course_details": "Learn database design principles and MySQL programming.",
+    "course_details": "Databases are the backbone of many applications. This course covers database design principles and MySQL, a popular relational database system. You'll learn to create, query, and manage databases.",
     "price": 149.99,
     "credit": 2
   },
@@ -67,7 +67,7 @@
     "id": 9,
     "image": "https://i.ibb.co/nzv77Hm/Rectangle-2-6.png",
     "course_name": "Problem-Solving Part",
-    "course_details": "Enhance your problem-solving skills and algorithmic thinking.",
+    "course_details": "Problem-solving is a critical skill in computer science. This course focuses on enhancing your problem-solving abilities and algorithmic thinking through a series of challenging exercises and projects.",
     "price": 199.99,
     "credit": 3
   }
