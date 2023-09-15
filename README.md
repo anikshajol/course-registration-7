@@ -1,13 +1,19 @@
 #
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    3 Project features:
 
-Currently, two official plugins are available:
+- Click select button to add course into selected course
+- Manage state for use credit hour and remaining credit hour.
+- Use tailwindcss & daisyUi for style project.
 
-- [@tailwindcss](https://tailwindcss.com/) uses for style
-- [@daisyui](https://daisyui.com/) uses for card style
-- [@react icons](https://react-icons.github.io/react-icons/) uses for icons
+Technology i have used:
 
-## I have declared 4 state in my project. I used two array state and 2 number state in my project. like -Api calls, -cart selection, -total price and -credit hour adding and remaining credit hour.
+- [@react icons](https://react-icons.github.io/react-icons/)
+  uses for icons
+- [@sweetalert2](https://sweetalert2.github.io/) uses for alerts.
+
+## Manage State (Local State):
+
+For managing state within component, I use the component's local state. React provides the useState hook for functional components. Local state is ideal for managing UI-specific data and is not shared between components.
 
 # https://650384a84cfee113e03c137a--exquisite-faun-f62ed4.netlify.app/

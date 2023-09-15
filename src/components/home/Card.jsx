@@ -7,21 +7,25 @@ const Card = ({ course, handleSelectCourse }) => {
 
   return (
     <div>
-      <div className="card  h-[450px] bg-white shadow-xl">
+      <div className="card  h-[400px] bg-white shadow-xl">
         <figure className="px-2 pt-2 ">
-          <img src={image} alt={course_name} className="rounded-xl" />
+          <img
+            src={image}
+            alt={course_name}
+            className="rounded-xl object-cover"
+          />
         </figure>
-        <div className="  card-body flex-none px-0 items-center">
-          <h2 className="card-title text-lg">{course_name}</h2>
+        <div className=" py-4 flex-none px-0 items-center">
+          <h2 className=" font-bold pb-3 text-center text-lg">{course_name}</h2>
 
-          <p className=" text-justify px-4 ">
+          <p className=" text-[#1C1B1B99] text-justify px-4 ">
             {course_details.length > 30
-              ? course_details.slice(0, 87) + "..."
+              ? course_details.slice(0, 70) + "..."
               : course_details}
           </p>
         </div>
 
-        <div className="flex pb-6  justify-between px-4">
+        <div className="flex pb-4 justify-between px-4">
           <p>
             <span className="font-semibold">$</span> Price: {price}
           </p>

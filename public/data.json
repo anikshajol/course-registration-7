@@ -27,7 +27,7 @@
     "id": 4,
     "image": "https://i.ibb.co/LNCbDQQ/Rectangle-3.png",
     "course_name": "Basic Data Structures",
-    "course_details": "This course focuses on core data structures such as arrays, linked lists, stacks, and queues. You'll not only learn how these data structures work but also how to apply them to solve real-world problems.",
+    "course_details": "This course focuses on core data structures such as arrays,linked lists, stacks, and queues. You'll not only learn how these data structures work but also how to apply them to solve real-world problems.",
     "price": 179.99,
     "credit": 5
   },
