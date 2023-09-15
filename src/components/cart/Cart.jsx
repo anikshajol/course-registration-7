@@ -7,24 +7,26 @@ const Cart = ({
   remainingCreditHour,
 }) => {
   return (
-    <div className="bg-white h-full p-6 rounded-xl">
-      <h2 className="border-b-2 pb-4 text-blue-700 font-bold">
-        Credit Hour Remaining {remainingCreditHour}
-        hr
+    <div className="bg-white h-full px-4 md:px-0 md:w-[25%] p-4 rounded-xl">
+      <h2 className="border-b-2 pb-4 text-lg text-blue-700 font-bold">
+        Credit Hour Remaining {remainingCreditHour} hr
       </h2>
 
       <div className="py-4 border-b-2 pb-4">
         <h2 className="text-xl font-bold pb-5">Course Name</h2>
+
         {selectCourse.map((course) => (
-          <li className="list-[number]" key={course.id}>
+          <li className="list-[number] text-[#1C1B1B99]" key={course.id}>
             {course.course_name}
           </li>
         ))}
       </div>
       <div className="border-b-2 pb-4">
-        <h2 className="pt-4">Total Credit Hour : {totalCredit}</h2>
+        <p className="pt-4 font-semibold text-[#1C1B1B99]">
+          Total Credit Hour : {totalCredit}
+        </p>
       </div>
-      <div className="pt-4">
+      <div className="pt-4 text-[#1C1B1B99] font-bold">
         <h2>Total Price : {totalPrice} USD</h2>
       </div>
     </div>

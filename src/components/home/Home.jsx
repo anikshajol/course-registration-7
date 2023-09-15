@@ -2,6 +2,10 @@ import { useState } from "react";
 import Cart from "../cart/Cart";
 import { useEffect } from "react";
 import Card from "./Card";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+
+const MySwal = withReactContent(Swal);
 
 const Home = () => {
   const [courses, setCourses] = useState([]);
@@ -9,7 +13,7 @@ const Home = () => {
   const [totalCredit, setTotalCredit] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0);
 
-  const [remainingCreditHour, setRemainingHour] = useState(0);
+  const [remainingCreditHour, setRemainingCreditHour] = useState(20);
 
   const handleSelectCourse = (course) => {
     let credit = course.credit;
@@ -19,7 +23,7 @@ const Home = () => {
     const isExist = selectCourse.find((item) => item.id === course.id);
 
     if (isExist) {
-      return alert("already added");
+      return MySwal.fire("", "This course is already booked", "warning");
     } else {
       selectCourse.forEach((item) => {
         credit += item.credit;
@@ -30,15 +34,15 @@ const Home = () => {
       });
 
       if (credit > 20) {
-        return alert("cant exceed 20 up");
+        return MySwal.fire("", "Can't take more than 20 Credit", "error");
       }
       setTotalCredit(credit);
 
-      setTotalPrice(parseFloat(price.toFixed(2)));
+      setTotalPrice(Math.round(price));
 
       setSelectCourse([...selectCourse, course]);
 
-      setRemainingHour(20 - credit);
+      setRemainingCreditHour(20 - credit);
     }
   };
 
@@ -49,8 +53,8 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="flex justify-between flex-wrap md:flex-nowrap flex-col-reverse md:flex-row gap-6 pb-10 ">
-      <div className="grid place-items-center md:place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full  md:w-4/5 gap-6">
+    <div className="flex justify-center flex-wrap md:flex-nowrap flex-col-reverse md:flex-row gap-6 pb-10 ">
+      <div className="grid px-4 md:px-0 md:place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full  md:w-4/5 gap-6">
         {courses.map((course) => (
           <Card
             key={course.id}

@@ -7,23 +7,23 @@ const Card = ({ course, handleSelectCourse }) => {
 
   return (
     <div>
-      <div className="card h-[420px]  bg-white shadow-xl">
-        <figure className="px-2 pt-4">
+      <div className="card   bg-white shadow-xl">
+        <figure className="px-2 pt-2 ">
           <img src={image} alt={course_name} className="rounded-xl" />
         </figure>
         <div className="  card-body px-0 items-center">
           <h2 className="card-title">{course_name}</h2>
 
-          <p className="text-center ">
+          <p className=" text-justify px-4 ">
             {course_details.length > 30
-              ? course_details.slice(0, 50) + "..."
+              ? course_details.slice(0, 90) + "..."
               : course_details}
           </p>
         </div>
 
         <div className="flex pb-6  justify-between px-4">
           <p>
-            <span>$</span> Price: {price}
+            <span className="font-semibold">$</span> Price: {price}
           </p>
 
           <p className="flex items-center gap-2">
