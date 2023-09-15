@@ -8,15 +8,16 @@ const Cart = ({
 }) => {
   return (
     <div className="bg-white h-full  md:w-[25%] p-4 rounded-xl">
-      <h2 className="border-b-2 pb-4 text-lg text-blue-700 font-bold">
+      <h2 className="border-b-2 pb-4 text-xl text-blue-700 font-bold">
         Credit Hour Remaining {remainingCreditHour} hr
       </h2>
 
-      <div className="py-4 border-b-2 pb-4">
-        <h2 className="text-xl font-bold pb-5">Course Name</h2>
-
+      <div className="pb-4">
+        <h2 className="text-xl  font-bold  pt-5">Course Name</h2>
+      </div>
+      <div className=" pl-4 border-b-2 pb-4">
         {selectCourse.map((course) => (
-          <li className="list-[number] text-[#1C1B1B99]" key={course.id}>
+          <li className="list-[number]  text-[#1C1B1B99]" key={course.id}>
             {course.course_name}
           </li>
         ))}
