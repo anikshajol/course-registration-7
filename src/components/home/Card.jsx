@@ -12,7 +12,7 @@ const Card = ({ course, handleSelectCourse }) => {
           <img src={image} alt={course_name} className="rounded-xl" />
         </figure>
         <div className="  card-body px-0 items-center">
-          <h2 className="card-title">{course_name}</h2>
+          <h2 className="card-title text-lg">{course_name}</h2>
 
           <p className=" text-justify px-4 ">
             {course_details.length > 30
